@@ -6,6 +6,7 @@ The repository is structured so that each chart resides in its own subdirectory 
 ---
 
 ## Repository Structure
+```
 .
 ├── charts/
 │ ├── example-chart-1/
@@ -20,6 +21,7 @@ The repository is structured so that each chart resides in its own subdirectory 
 ├── .github/workflows/
 │ └── release.yaml # CI workflow for helm/chart-releaser
 └── README.md
+```
 
 - **charts/** — Each subdirectory is a standalone Helm chart.
 - **.github/workflows/** — Contains the CI/CD configuration for packaging and releasing charts.
