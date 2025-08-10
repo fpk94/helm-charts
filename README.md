@@ -65,3 +65,6 @@ helm install <release-name> my-charts/<chart-name> \
 helm upgrade <release-name> my-charts/<chart-name> \
 ```
 
+## Licensing
+
+This repository uses the helm/chart-releaser GitHub Action, licensed under the Apache License, Version 2.0. See https://github.com/helm/chart-releaser-action for source.
